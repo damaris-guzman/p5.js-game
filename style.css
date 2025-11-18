@@ -1,14 +1,14 @@
 :root { 
   color-scheme: light dark; 
 
-  /* title styling */
-  --title-color: #ff7ad9;        /* change to any pastel */
+  /* easy-to-edit title styling */
+  --title-color: #ff7ad9;
   --title-shadow: rgba(255, 122, 217, 0.4);
   --title-size: clamp(1.4rem, 3vw, 2.2rem);
 }
 
-* { 
-  box-sizing: border-box; 
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -23,7 +23,6 @@ body {
   background: #fafafa;
 }
 
-/* title */
 h1 {
   font-size: var(--title-size);
   margin: 0;
@@ -54,27 +53,10 @@ h1:hover {
   width: min(1000px, 100%);
 }
 
-/* iframe itself */
+/* iframe */
 #iframe-container iframe {
   border-radius: 4px;
   display: block;
   width: 100%;
-  height: 600px;        /* adjust if you want */
-}
-
-#canvas-container {
-  width: min(1000px, 100%);
-  aspect-ratio: 16 / 9;
-  position: relative;
-  border: 1px solid #ddd;
-  background: #fff;
-  overflow: hidden;
-}
-
-#canvas-container canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
+  height: 600px; /* adjust height if you want */
 }
