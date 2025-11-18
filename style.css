@@ -1,7 +1,7 @@
 :root { 
   color-scheme: light dark; 
 
-  /* easy-to-edit title styling */
+  /* title styling */
   --title-color: #ff7ad9;
   --title-shadow: rgba(255, 122, 217, 0.4);
   --title-size: clamp(1.4rem, 3vw, 2.2rem);
